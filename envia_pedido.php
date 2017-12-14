@@ -8,10 +8,10 @@
 			$fecha = date("d-M-y H:i");
 			//$mymail = "pedidos@bobmilanga.com.ar";
       if ($_POST['sucursal'] == 1) {
-        $mymail = "fetudaguerre@gmail.com";
+        $mymail = "avellaneda@bobmilanga.com";
         $sucursal = "Avellaneda 2553";
       } else if ($_POST['sucursal'] == 2){
-        $mymail = "fetudaguerre@gmail.com";
+        $mymail = "tejedor@bobmilanga.com";
         $sucursal = "Av. Tejedor 707";
       }
 			$subject = "Nuevo pedido desde el sitio Bob Milanga!";

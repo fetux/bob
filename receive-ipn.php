@@ -69,9 +69,9 @@ if ($merchant_order_info["status"] == 200) {
       $sucursal = $reason_array[1];
 
       if ($sucursal == 'Avellaneda 2553') {
-        $mymail = "avellaneda@bobmilanga.com.ar";
+        $mymail = "avellaneda@bobmilanga.com";
       } elseif ($sucursal == 'Av. Tejedor 707') {
-        $mymail = "constitucion@bobmilanga.com.ar";
+        $mymail = "tejedor@bobmilanga.com";
       }
 			$res = mysql_query($sql);
 

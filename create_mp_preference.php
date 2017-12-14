@@ -3,7 +3,7 @@
 require_once ('lib/mercadopago.php');
 //$mp = new MP('1054682133403267', '2X1k2Zx5h1iMl1zgwfNIZB3RqZcVIFrx');
 $mp = new MP('3893355310750601', '9E5J20xqCY5h9Z2jWGahFkPHdTAaHPOl');
-//$mp->sandbox_mode(TRUE);
+$mp->sandbox_mode(TRUE);
 
 
 $preference_data = array(

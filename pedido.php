@@ -457,7 +457,7 @@ include 'header.php';
 			<label for="comentarios">Comentarios:</label>
 			<textarea class="form-control" id="comentarios" name="comentarios" rows="4"></textarea>
 			<input type="hidden" id="detalle-pedido" name="pedido">
-			<button id="confirmar2" class="btn btn-small btn-warning btn-bobmilanga">Confirmar</button>
+			<button id="confirmar2" class="btn btn-small btn-warning btn-bobmilanga" data-loading-text="Enviando pedido...">Confirmar</button>
 		</form>
 
       </div>
