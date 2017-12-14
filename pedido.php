@@ -379,7 +379,7 @@ include 'header.php';
         <div class="radio-inline">
           <label>
             <input type="radio" name="optionsLocal" id="optionsLocalConst" value="2">
-            Tejedor 707
+            Av. Tejedor 707
           </label>
         </div>
       </div>
