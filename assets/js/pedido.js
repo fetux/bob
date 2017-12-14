@@ -1414,6 +1414,7 @@ $(document).ready(function() {
 	$("#form-pedido").submit(function(e)
 	{
 		e.preventDefault();
+    
     //ocultar el ticket-confirmar
     $('#ticket-confirmar').modal('hide');
     $("html, body").animate({ scrollTop: 0 }, "slow");
