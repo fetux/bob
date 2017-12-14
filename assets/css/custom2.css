@@ -1,0 +1,613 @@
+@font-face{
+	font-family: simplicity;
+	src: url(../fonts/simplicity.ttf)
+}
+
+.font-simplicity{
+	font-family: simplicity;
+}
+
+body{
+	background-color: #FFF380 !important;
+}
+
+.container p{
+	font-size:18px;
+}
+
+#menuBob{
+	background-color: #E47617 !important;
+	border: none;
+	margin: 0 auto;
+	font-size: 1em !important;
+	font-weight: bolder;
+	z-index:0;
+}
+
+#menuBob .navbar-brand{
+	color:white;
+	font-weight: bolder;
+}
+
+#menuBob.navbar-inverse .navbar-nav > .active > a,
+#menuBob.navbar-inverse .navbar-nav > .active > a:hover,
+#menuBob.navbar-inverse .navbar-nav > .active > a:focus,
+#menuBob.navbar-inverse .navbar-nav > li > a:hover
+{
+  background-color: #450002 !important;
+  color: #FFFFFF !important;
+}
+
+#menuBob.navbar-inverse .navbar-nav > li > a {
+  color: #FFFFFF;
+}
+
+
+#menu-btn{
+	border-radius: 5px;
+	position:relative;
+	top:80px;
+	left:-220px;
+	z-index: -1;
+	cursor:pointer;
+}
+
+.delivery {
+  background-color: #450002;
+  color: white;
+  font-family: simplicity;
+  font-size: 15px;
+  font-weight: 800;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  z-index: 100000;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.navbar-inverse .navbar-toggle,.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  border-color: #450002;
+  _background-color: #E47617;
+  background-color: #450002;
+}
+
+.special-btn{
+	position:absolute !important;
+	top:-10px;
+	border: 2px solid #450002;
+	width:130px;
+	height:70px;
+	background-color:#450002;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.special-btn:hover{
+	box-shadow: 0px 10px 10px #450002;
+	text-shadow: 0px 1px 1px gray;
+}
+
+.special-btn + .space-reserver{
+	min-width:130px;
+	border: 1px solid #E47617;
+}
+
+
+.carousel-caption
+{
+	width:100%;
+	background-color: rgba(0,0,0,0.5);
+	left:0;
+	right:0;
+}
+
+
+
+.solapa{
+	background-color: #FFF37B;
+	border: 2px solid #E47617;
+	border-top:none;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+    z-index: 9999;
+    text-align:center;
+    box-shadow: 5px 5px 5px;
+    position:absolute;
+    _width:20%;
+}
+
+.logo{
+	height: 200px;
+   	left:25px;
+}
+
+.logo-site{
+	width:210px;
+	margin: 10px 0 0 -10px;
+
+}
+
+#top{
+	position: relative;
+
+	background-color: #FFBF31;
+
+	border-bottom: 2px solid brown;
+	height: 151px;
+
+}
+
+#top .nav > li > a{
+		background-color: #E47617;
+		color:white;
+	}
+
+#top .nav > li > a:hover, #top .nav > li.active > a{
+		background-color: white !important;
+		color:#E47617 !important;
+		border:1px solid white !important;
+	}
+
+#menu{
+	position: relative;
+
+
+	padding:0;
+
+	margin:101px 0 0 0;
+
+	float:left;
+	font-family: simplicity;
+	font-size: 18px;
+	font-weight:bold;
+}
+
+.social{
+	right: 25px;
+	padding:10px;
+
+}
+
+.social span{
+	font-family: simplicity;
+	font-weight:bolder;
+	font-size:20px;
+
+}
+
+/*
+
+.logo{
+	position:absolute;
+	top: -60px;
+	right: 0px;
+	z-index: 100;
+}
+
+.logo-site{
+	width:80%;
+	margin: 10px 0 0;
+
+}
+*/
+.home-text
+{
+	font-size:20px;
+}
+
+.home-imgs img
+{
+	margin:20px;
+}
+
+.xs-content-margin
+{
+	height: 60px;
+}
+
+.sm-content-margin
+{
+	height: 100px;
+}
+
+footer
+{
+	background-color:#E47617;
+	color:white !important;
+	min-height: 200px;
+}
+
+
+
+
+/* PROMOCIONES */
+
+.imgPromo{
+	text-align:center;
+}
+
+.imgPromo img{
+	margin:0 30px;
+	_border: 3px solid black;
+	_border-radius: 20px;
+}
+
+
+/*
+ * LA CARTA DE BOB MILANGA!
+ *
+ */
+
+#magazine{
+    width: 778px;
+    height: 550px;
+    background-color: black;
+}
+
+	#magazine table{
+		position: relative;
+		font-size:11px;
+		font-weight: bold;
+		line-height:15.2px;
+	}
+
+.pag1{
+	background-image: url(/assets/img/menu/01.png)
+}
+
+.pag2{
+	background-image: url(/assets/img/menu/02.png)
+}
+.pag3{
+	background-image: url(/assets/img/menu/03.png)
+}
+
+.pag4{
+	background-image: url(/assets/img/menu/04.png)
+}
+
+	#degustar{
+		top:155px;
+		left:320px;
+	}
+
+	#degustar .row9 .col1 {
+	  padding-top: 20px;
+	}
+
+	#degustar .row10 .col1 {
+	  left: -210px;
+	  position: absolute;
+	  top: 325px;
+	}
+
+.pag5{
+	background-image: url(/assets/img/menu/05.png)
+}
+
+.pag6{
+	background-image: url(/assets/img/menu/06.png)
+}
+
+	#guarniciones {
+		left:340px;
+		top:440px;
+	}
+
+.pag7{
+	background-image: url(/assets/img/menu/07.png)
+}
+
+	#milanesas {
+		left:30px;
+		top:120px;
+		height:250px;
+		}
+
+		#milanesas .col2{ padding-left:36px; }
+		#milanesas .col3{ padding-left:30px; }
+		#milanesas .col4{ padding-left:20px; }
+		#milanesas .col5{ padding-left:30px; }
+		#milanesas .col6{ padding-left:40px; }
+		#milanesas .col7{ padding-left:50px; }
+
+	#ensaladas {
+	  top: 146px;
+	  left: 335px;
+	}
+
+	#ensaladas .row2 .col1 {
+  		padding-top: 12px;
+	}
+	#ensaladas .row3 .col1 {
+		padding-top: 34px;
+	}
+
+
+.pag8{
+	background-image: url(/assets/img/menu/08.png)
+}
+
+	#carnes {
+ 		top: 55px;
+  		left: 325px;
+	}
+
+	#sandwiches {
+		left: 325px;
+  		top: 180px;
+	}
+
+	#sandwiches .row3 .col1 {
+ 		padding-top: 32px;
+	}
+
+	#postres {
+		top: 262px;
+		left: 325px;
+	}
+
+.pag9{
+	background-image: url(/assets/img/menu/09.png)
+}
+
+.pag10{
+	background-image: url(/assets/img/menu/10.png)
+}
+
+	#bebidas {
+		left:325px;
+		top:100px;
+	}
+
+	#bebidas .row2 .col1 {
+	  left: -220px;
+	  position: absolute;
+	  top: 32px;
+	}
+
+	#bebidas .row2 .col2 {
+	  left: -95px;
+	  position: absolute;
+	  top: 32px;
+	}
+
+	#bebidas  .row3 .col1 {
+	  padding-top: 33px;
+	}
+
+	#bebidas .row6 .col1 {
+	  padding-top: 32px;
+	}
+
+	#bebidas .row7 .col1 {
+	  position: absolute;
+	  left: -65px;
+	}
+
+	#bebidas .row7 .col2 {
+	  position: absolute;
+	}
+
+	#bebidas .row8 .col1 {
+	  padding-top: 17px;
+	}
+
+	#bebidas .row10 .col1 {
+	  padding-top: 32px;
+	}
+
+	#bebidas .row11 .col1 {
+	  position: absolute;
+	  left: -65px;
+	}
+
+	#bebidas .row11 .col2 {
+	  position: absolute;
+	}
+
+	#bebidas .row12 .col1 {
+	  padding-top: 15px;
+	}
+
+	#bebidas .row17 .col1 {
+	  padding-top: 35px;
+	}
+
+	#bebidas .row18 .col1 {
+	  padding-top: 34px;
+	}
+
+.pag11{
+	background-image: url(/assets/img/menu/11.png)
+}
+
+	#cervezas  {
+		top: 132px;
+		left: 310px;
+	}
+
+	#cervezas .row5 .col1 {
+		padding-top: 22px;
+	}
+
+	#cervezas .row6 .col1 {
+		padding-top: 27px;
+	}
+
+.pag12{
+	background-image: url(/assets/img/menu/12.png)
+}
+
+
+/*
+ * FIN DE LA CARTA DE BOB MILANGA!
+ */
+
+
+#pasalapagina{
+	bottom:40px;
+	position:fixed;
+	right:20px;
+	z-index:1000;
+
+}
+
+
+#btn-carta{
+	top:160px;
+	right:-5%;
+	position:fixed;
+}
+
+#bt-carta .miralacarta{
+	position:relative;
+	left:100px;
+}
+
+
+/* pedido ***/
+
+
+#cartel-cerrado{
+	_border-color: black;
+	_border-width: 2px;
+	border-style: double;
+	display:none;
+	padding: 10px;
+
+	text-align: center;
+	width: 150px;
+	margin: 20px auto 0;
+	position:relative;
+	top:50px;
+}
+
+#loading{
+	margin:0 auto;
+	width:90%;
+	text-align:center;
+	position:absolute;
+	top:40%;
+	height:20%;
+}
+
+
+
+.circle {
+	background-color:#FFBF31;
+	height:20px;
+	width:20px;
+	border-radius:20px;
+	margin: 0 auto;
+
+}
+
+.circle-active {
+	background-color:#E47617;
+	height:20px;
+	width:20px;
+	border-radius:20px;
+	margin:0 auto;
+
+}
+#menu-pedido{
+	margin-top:20px;
+	padding:0;
+}
+
+#menu-pedido li {
+	list-style:none;
+	margin-bottom:50px;
+	text-align:center;
+	cursor:hand;
+	cursor: pointer;
+}
+
+#menu-pedido li span {
+	font-size:20px;
+
+
+}
+
+.btn-bobmilanga{
+	color: #E47617;
+	font-weight:bold;
+	background: white;
+	border: 2px solid #E47617;
+	margin: 5px;
+
+}
+
+.tooltip{
+	font-size:16px !important;
+	font-family: arial;
+}
+
+
+.mesa-reservation-margin{
+	margin: 30px 0;
+}
+
+#mesa{
+	margin:30px auto;
+	_min-height: 327px;
+}
+
+#mesa *{
+	position: absolute;/**/
+	border: 5px solid black;
+	left:-5px;
+}
+
+.xs-special-margin{
+	min-height: 250px;
+}
+
+
+#tabla-detalle{
+	margin:30px 0;
+}
+
+.modal-ticket{
+	_background-color: #fff37b;
+	background-color: transparent;
+	border-radius: 0;
+	border:none;
+	box-shadow: none;
+
+	}
+
+.modal-ticket .modal-content{
+	border: none;
+	box-shadow: none;
+	background: none;
+}
+
+.modal-ticket .modal-header{
+	min-height: 9px !important;
+	background: url(../img/triangulito.png) repeat-x;
+	border: none;
+	padding:0;
+	box-shadow: none;
+}
+
+.modal-ticket .modal-body{
+	background-color: #fff37b;
+	min-height: 75%	;
+}
+
+.modal-ticket .modal-footer{
+	min-height: 9px;
+	background: url(../img/triangulito.rotada.png) repeat-x;
+	border: none;
+	padding:0;
+	box-shadow: none;
+}
+
+.modal-backdrop, .modal-backdrop.fade.in {
+    _opacity: 0.6;
+}
+

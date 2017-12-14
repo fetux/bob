@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Prueba</title>
+</head>
+<body>
+        <script type="text/javascript">
+            var element = document.getElementById("map"); 
+            var map = new google.maps.Map(element, {
+                center: new google.maps.LatLng(23.136, -82.363),
+                zoom: 16,
+                mapTypeId: "OSM",
+                mapTypeControlOptions: {
+                    mapTypeIds: ["OSM"]
+                }
+            }); 
+            map.mapTypes.set("OSM", new google.maps.ImageMapType({
+                getTileUrl: function(coord, zoom) {
+                    return "http://tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
+                },
+                tileSize: new google.maps.Size(256, 256),
+                name: "OpenStreetMap",
+                maxZoom: 18
+            }));
+        </script>
+<div id="map" style="width:512px;height:256px;"></div>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+</body>
+</html>

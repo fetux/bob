@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		
+
+		<title>Bob Milanga :: Milanesería - Mar del Plata</title>
+		<meta name="description" content="Bob Milanga Milaneseria" />
+		<meta name="author" content="Federico M. F. Daguerre" />
+		<meta name="author" content="Antonella Guayarello" />
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+		<!-- Favicon -->
+		<link rel="icon" href="/assets/img/favicon.ico"  type="image/x-icon" />
+		<!-- Add bootstrap library -->
+		<link rel="stylesheet" href="/assets/css/bootstrap.min.css" >
+		<link rel="stylesheet" href="/assets/css/bootstrap-select.min.css" >
+		<!-- Add Colorbox library -->
+		<link rel="stylesheet" href="/assets/css/colorbox.css" >
+		
+		<link rel="stylesheet" href="/assets/css/custom.css" >
+		
+		<link rel="stylesheet" href="/assets/vendor/adgallery/lib/jquery.ad-gallery.css" >
+		
+		<!-- Add jQuery library -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		
+		
+		<script src="/assets/js/bootstrap.min.js"></script>
+		
+		<script src="/assets/js/bootstrap-select.min.js"></script>
+		
+		<script src="/assets/js/jquery.colorbox-min.js"></script>
+		
+		<script src="/assets/js/turn.js"></script>		
+		
+		
+		
+		<script src="/assets/js/jquery.ddslick.min.js"></script>
+		
+		<script src="/assets/vendor/adgallery/lib/jquery.ad-gallery.min.js"></script>
+		
+		
+		<script src="/assets/js/custom.js"></script>
+		
+		<script src="/assets/js/pedido.js"></script>
+		
+	</head>
+
+	<body>
+		<div class="span3 solapa logo hidden-phone hidden-tablet">
+			<!-- Logo -->
+			<img class="logo-site" src="assets/img/logo_bobmilanga.png">
+		</div>
+		<div id="top" class="row-fluid">
+			
+			<div class="span3"><!-- --></div>
+			<div class="span7">
+				<!-- Menu -->
+				<ul id="menu" class="nav nav-tabs">
+					<li class="hola"><a href="index.php">hola!</a></li>
+					<li class="salon"><a href="salon.php">sal&oacute;n</a></li>
+					<li class="pedido"><a href="pedido.php">hac&eacute; tu pedido</a></li>
+					<li class="precios-delivery"><a href="#">precios delivery</a></li>
+					<li class="promociones"><a href="promociones.php">promociones</a></li>
+					<li class="dropdown galeria">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">galer&iacute;a</a>
+						<ul class="dropdown-menu">
+							<li><a href="galeria.php?g=fotos">fotos</a></li>
+							<li><a href="galeria.php?g=dibujos">dibujos</a></li>
+						</ul>
+					</li>
+					<li class="contacto"><a href="contacto.php">contacto</a></li>
+				</ul>
+			</div>
+			<div class="span2"> <!--   --></div>
+			<div class="span2 solapa social hidden-phone hidden-tablet">
+				<!--Social buttons -->	
+				<div style="margin-bottom: 15px">
+					<a class="facebook" href="http://www.facebook.com/bobmilanga.milaneseria"><img src="assets/img/facebook.png" /></a>
+					<a class="tweeter" href="http://www.twitter.com"><img src="assets/img/twitter.png" /></a>
+					<a class="mail" href="mailto:info@bobmilanga.com.ar"><img src="assets/img/mail.png" /></a>
+				</div>
+				
+				<!-- Contact Info -->
+				<!--<img class="pizarron" src="assets/img/delivery.png" alt="pizarron">-->
+				<span>
+					DELIVERY<br />493-7040
+				</span>
+			</div>	
+				
+			
+		</div>	
+		<!--
+			<div id="anuncio"class="modal hide fade">
+			    <div class="modal-header">
+			    	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			    	<h3>Próximamente hacé tu pedido!</h3>
+			    </div>
+			    <div class="modal-body">
+			    	<p>Estamos trabajando para darte una experiencia única al realizar pedidos!</p>
+			    	<p>Volvé pronto!</p>
+			    	<p><strong>Bob.</strong></p>
+			    </div>
+			    <div class="modal-footer">
+			    	<a href="#" class="btn btn-warning">Aceptar!</a>
+			    </div>
+		    </div>
+		-->
+		
+		<script>
+		
+		$('.precios-delivery').click(function(){
+			//$('#anuncio').modal();
+			$.colorbox({
+				href:"/assets/img/delivery-2014.jpg",
+				scrolling:false,
+				opacity: 0.6,
+				scalePhotos: true,
+				height: 600
+				});
+		});
+		/*
+		$('#anuncio .btn').click(function(){
+			$('#anuncio').modal('hide');
+		});
+		*/
+		</script>
+		
+		<div class="container">
+		
+			

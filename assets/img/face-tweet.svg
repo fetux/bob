@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Nuevo documento 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="9.1833333"
+     inkscape:cx="-1057.7921"
+     inkscape:cy="517.0449"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1364"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="color:#000000;fill:#e47617;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m -1050.2926,512.65394 c -8.284,0 -14.999,6.7149 -14.999,14.99904 0,8.28412 6.715,15.00096 14.999,15.00096 8.2842,0 14.999,-6.71684 14.999,-15.00096 0,-8.28414 -6.7148,-14.99904 -14.999,-14.99904 z m 1.5786,4.3558 3.3454,0 0,3.66928 -1.9974,0 c -0.5936,0 -0.971,0.163 -1.1598,0.48678 -0.134,0.21582 -0.188,0.59286 -0.188,1.10544 l 0,1.67366 3.3998,0 -0.4054,3.6945 -2.9944,0 0,10.6568 -4.3984,0 0,-10.6568 -2.1566,0 0,-3.6945 2.1566,0 0,-2.2128 c 0,-2.26616 0.7836,-3.72368 2.3214,-4.34418 0.7554,-0.29676 1.4026,-0.37818 2.077,-0.37818 z"
+       id="path2991"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/fetu/webdev/otros/bobmilanga.com.ar/assets/img/facebook.png"
+       inkscape:export-xdpi="87"
+       inkscape:export-ydpi="87" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#e47617;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3783"
+       sodipodi:cx="-1088.4937"
+       sodipodi:cy="525.42932"
+       sodipodi:rx="5.1179671"
+       sodipodi:ry="5.1179671"
+       d="m -1083.3757,525.42932 a 5.1179671,5.1179671 0 1 1 -10.2359,0 5.1179671,5.1179671 0 1 1 10.2359,0 z"
+       transform="matrix(2.712766,0,0,2.712766,1868.4184,-901.51644)" />
+  </g>
+</svg>

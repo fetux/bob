@@ -1,0 +1,19 @@
+.center{
+	float:none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.container-menu{
+	position:fixed;
+	background: white;
+}
+
+.content{
+	padding-top:100px;
+}
+
+
+#pagos{margin-top:50px;}
